@@ -1,4 +1,4 @@
-import {Express} from 'express';
+import type { Express } from 'express';
 
 function get(app: Express) {
   app.post('/', (request, response) => {

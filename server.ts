@@ -1,7 +1,7 @@
 // server.js
 import dotenv from 'dotenv';
 import express from 'express';
-import cors, {CorsOptions} from 'cors';
+import cors, {type CorsOptions} from 'cors';
 import bodyParser from 'body-parser';
 import post from './routes/post';
 
